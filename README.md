@@ -31,3 +31,6 @@ After installing a new font, you will likely need to refresh the font cache.
 
 ![](xkcd_theme-women_800m_world_record_progression.png)
 
+# To Do
+
+In the women's 800m plot shown above, note that the bottom y-value label is `00:02`.  Clearly, I would prefer this to be `00:02:00`.  In fact, I would prefer all the plots drop the `00:` prefix.  I'm not entirely sure the best way to do this.  It seems that you should be able to do something like [this](https://matplotlib.org/2.1.2/gallery/api/date_index_formatter.html), but it didn't work on my first attempt.
